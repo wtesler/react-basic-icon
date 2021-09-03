@@ -1,0 +1,21 @@
+{
+  "name": "react-basic-icon",
+  "version": "1.0.0",
+  "description": "An image element that is easier to work with than a regular <img/> element",
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "react",
+    "img",
+    "icon"
+  ],
+  "author": "Will Tesler",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wtesler/react-basic-icon.git"
+  },
+  "homepage": "https://github.com/wtesler/react-basic-icon"
+}
