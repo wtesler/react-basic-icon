@@ -1,4 +1,4 @@
-import {useCallback, useEffect, useRef, useState} from "react";
+import React, {useCallback, useEffect, useRef, useState} from "react";
 import Icon from "../icon/Icon";
 import './SignedIcon.css';
 

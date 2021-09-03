@@ -44,7 +44,7 @@ const Icon = props => {
   return (
     <img
       id={state.id}
-      className={`${state.className} ${"IconNoSelect"}`}
+      className={`${state.className} IconNoSelect`}
       src={state.src}
       onClick={state.onClick}
       onLoad={state.onLoad}

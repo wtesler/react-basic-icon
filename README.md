@@ -8,3 +8,8 @@ Mainly it prevents context menu and drag gestures.
 
 A version of the icon which makes it easy to display images coming
 from signed urls. Instead of `src`, set the `signedUrl` prop of this element.
+
+
+### For Developer
+
+Remember to npm run build before deploying.
