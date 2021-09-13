@@ -53,6 +53,13 @@ const SignedIcon = props => {
 
       const response = await fetch(signedUrl, options);
       const data = await response.text();
+      if (data.includes('<Error>')) {
+        const e = new Error();
+        e.code = 404;
+        // noinspection ExceptionCaughtLocallyJS
+        throw e;
+      }
+      console.log(data);
       setInternalSrc(data);
     } catch (e) {
       if (e.name !== 'AbortError') {
