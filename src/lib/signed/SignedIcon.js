@@ -59,7 +59,6 @@ const SignedIcon = props => {
         // noinspection ExceptionCaughtLocallyJS
         throw e;
       }
-      console.log(data);
       setInternalSrc(data);
     } catch (e) {
       if (e.name !== 'AbortError') {
