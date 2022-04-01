@@ -1,21 +1,20 @@
 {
   "name": "react-basic-icon",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "An image element that is easier to work with than a regular <img/> element",
   "scripts": {
     "build": "npm run clean && babel src/lib --out-dir dist --copy-files",
     "clean": "rimraf dist"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
-    "react": "^17"
+    "react": "^18"
   },
   "devDependencies": {
-    "@babel/cli": "^7.14.5",
-    "@babel/core": "^7.14.5",
-    "@babel/preset-env": "^7.14.5",
-    "@babel/preset-react": "^7.14.5",
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
     "rimraf": "3.0.2"
   },
   "main": "dist/index.js",
