@@ -1,6 +1,6 @@
 {
   "name": "react-basic-icon",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "An image element that is easier to work with than a regular <img/> element",
   "scripts": {
     "build": "npm run clean && babel src/lib --out-dir dist --copy-files",

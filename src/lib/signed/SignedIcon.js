@@ -18,11 +18,12 @@ const SignedIcon = props => {
   const controllerRef = useRef(new AbortController());
 
   useEffect(() => {
-    const ref = controllerRef;
+    const controller = new AbortController();
+    controllerRef.current = controller;
     return () => {
-      ref.current.abort();
+      controller.abort();
     }
-  }, [controllerRef]);
+  }, []);
 
   useEffect(() => {
     setState({
@@ -66,7 +67,7 @@ const SignedIcon = props => {
         setInternalSrc(BLANK_IMAGE);
       }
     }
-  }, [controllerRef]);
+  }, []);
 
   useEffect(() => {
     if (signedUrl) {
